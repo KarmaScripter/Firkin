@@ -31,20 +31,19 @@
         /// Gets the table names.
         /// </summary>
         /// <returns></returns>
-        public List<string> GetTableNames()
+        public IEnumerable<string> GetTableNames()
         {
             var _tableNames = new List<string>();
             var _restrictions = new string[ 4 ];
             _restrictions[ 3 ] = "Table";
 
-            var _userTables = _connection
-                ?.GetSchema( "Tables", _restrictions );
+            var _userTables = _connection?.GetSchema( "Tables", _restrictions );
 
             if( _userTables != null )
             {
                 for( var i = 0; i < _userTables.Rows.Count; i++ )
                 {
-                    _tableNames.Add( _userTables.Rows[ i ][ 2 ].ToString() );
+                    _tableNames?.Add( _userTables.Rows[ i ][ 2 ].ToString() );
                 }
             }
 

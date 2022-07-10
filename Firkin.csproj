@@ -35,6 +35,9 @@
   <PropertyGroup>
     <ApplicationIcon>BlueNinja.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Firkin.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CharmNotification, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

@@ -48,9 +48,9 @@
             this.checkTableNames.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.checkTableNames.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.checkTableNames.FormattingEnabled = true;
-            this.checkTableNames.Location = new System.Drawing.Point(13, 69);
+            this.checkTableNames.Location = new System.Drawing.Point(15, 74);
             this.checkTableNames.Name = "checkTableNames";
-            this.checkTableNames.Size = new System.Drawing.Size(154, 176);
+            this.checkTableNames.Size = new System.Drawing.Size(180, 187);
             this.checkTableNames.TabIndex = 2;
             this.checkTableNames.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.OnCheckTableNamesItemChecked);
             // 
@@ -58,19 +58,20 @@
             // 
             this.lblstatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblstatus.AutoSize = true;
-            this.lblstatus.Font = new System.Drawing.Font("Roboto", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblstatus.Location = new System.Drawing.Point(182, 156);
+            this.lblstatus.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstatus.Location = new System.Drawing.Point(212, 168);
             this.lblstatus.Name = "lblstatus";
-            this.lblstatus.Size = new System.Drawing.Size(66, 24);
+            this.lblstatus.Size = new System.Drawing.Size(41, 14);
             this.lblstatus.TabIndex = 6;
             this.lblstatus.Text = "status";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 44);
+            this.label1.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(14, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.Size = new System.Drawing.Size(80, 14);
             this.label1.TabIndex = 7;
             this.label1.Text = "Export Tables";
             // 
@@ -92,10 +93,10 @@
             this.btnConvert.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnConvert.ForeColor = System.Drawing.Color.Gray;
             this.btnConvert.Image = null;
-            this.btnConvert.Location = new System.Drawing.Point(283, 69);
+            this.btnConvert.Location = new System.Drawing.Point(330, 74);
             this.btnConvert.MouseState = VisualPlus.Enumerators.MouseStates.Normal;
             this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(140, 33);
+            this.btnConvert.Size = new System.Drawing.Size(163, 36);
             this.btnConvert.TabIndex = 8;
             this.btnConvert.Text = "Convert";
             this.btnConvert.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
@@ -126,10 +127,10 @@
             this.CheckAllButton.DialogResult = System.Windows.Forms.DialogResult.None;
             this.CheckAllButton.ForeColor = System.Drawing.Color.Gray;
             this.CheckAllButton.Image = null;
-            this.CheckAllButton.Location = new System.Drawing.Point(173, 69);
+            this.CheckAllButton.Location = new System.Drawing.Point(202, 74);
             this.CheckAllButton.MouseState = VisualPlus.Enumerators.MouseStates.Normal;
             this.CheckAllButton.Name = "CheckAllButton";
-            this.CheckAllButton.Size = new System.Drawing.Size(75, 23);
+            this.CheckAllButton.Size = new System.Drawing.Size(87, 25);
             this.CheckAllButton.TabIndex = 9;
             this.CheckAllButton.Text = "Select All";
             this.CheckAllButton.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
@@ -159,10 +160,10 @@
             this.button1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.button1.ForeColor = System.Drawing.Color.Gray;
             this.button1.Image = null;
-            this.button1.Location = new System.Drawing.Point(173, 98);
+            this.button1.Location = new System.Drawing.Point(202, 106);
             this.button1.MouseState = VisualPlus.Enumerators.MouseStates.Normal;
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(87, 25);
             this.button1.TabIndex = 10;
             this.button1.Text = "Un-Select ";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
@@ -192,10 +193,10 @@
             this.AccessButton.DialogResult = System.Windows.Forms.DialogResult.None;
             this.AccessButton.ForeColor = System.Drawing.Color.Gray;
             this.AccessButton.Image = null;
-            this.AccessButton.Location = new System.Drawing.Point(283, 11);
+            this.AccessButton.Location = new System.Drawing.Point(330, 12);
             this.AccessButton.MouseState = VisualPlus.Enumerators.MouseStates.Normal;
             this.AccessButton.Name = "AccessButton";
-            this.AccessButton.Size = new System.Drawing.Size(140, 34);
+            this.AccessButton.Size = new System.Drawing.Size(163, 37);
             this.AccessButton.TabIndex = 11;
             this.AccessButton.Text = "Access Database";
             this.AccessButton.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
@@ -243,15 +244,15 @@
             this.txtAccessPath.ImageSize = new System.Drawing.Size(16, 16);
             this.txtAccessPath.ImageVisible = false;
             this.txtAccessPath.ImageWidth = 35;
-            this.txtAccessPath.Location = new System.Drawing.Point(15, 11);
+            this.txtAccessPath.Location = new System.Drawing.Point(17, 12);
             this.txtAccessPath.MouseState = VisualPlus.Enumerators.MouseStates.Normal;
             this.txtAccessPath.Name = "txtAccessPath";
             this.txtAccessPath.PasswordChar = '\0';
             this.txtAccessPath.ReadOnly = false;
             this.txtAccessPath.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtAccessPath.Size = new System.Drawing.Size(233, 23);
+            this.txtAccessPath.Size = new System.Drawing.Size(272, 23);
             this.txtAccessPath.TabIndex = 12;
-            this.txtAccessPath.TextBoxWidth = 223;
+            this.txtAccessPath.TextBoxWidth = 306;
             this.txtAccessPath.TextStyle.Disabled = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(129)))), ((int)(((byte)(129)))));
             this.txtAccessPath.TextStyle.Enabled = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtAccessPath.TextStyle.Hover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -268,13 +269,13 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.BorderColor = System.Drawing.Color.SteelBlue;
             this.CaptionBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.CaptionForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(431, 262);
+            this.ClientSize = new System.Drawing.Size(502, 282);
             this.Controls.Add(this.txtAccessPath);
             this.Controls.Add(this.AccessButton);
             this.Controls.Add(this.button1);
@@ -283,7 +284,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblstatus);
             this.Controls.Add(this.checkTableNames);
-            this.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MetroColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
